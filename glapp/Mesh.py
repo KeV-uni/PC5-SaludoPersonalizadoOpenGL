@@ -6,7 +6,7 @@ from .Texture import *
 
 
 class Mesh:
-    def __init__(self, program_id, vertices, imagefile, vertex_normals= [], vertex_uvs = [], vertex_colors = [], draw_type = GL_TRIANGLES,
+    def __init__(self, program_id, vertices, imagefile, vertex_normals=[], vertex_uvs=[], vertex_colors=[], draw_type=GL_TRIANGLES,
                  translation=pygame.Vector3(0, 0, 0),
                  rotation=Rotation(0, pygame.Vector3(0, 1, 0)),
                  scale=pygame.Vector3(1, 1, 1),
